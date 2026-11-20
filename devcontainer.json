@@ -45,7 +45,13 @@
         "tamasfe.even-better-toml",
         "redhat.vscode-yaml",
         "ms-azuretools.vscode-docker",
-        "42crunch.vscode-openapi"
+        "42crunch.vscode-openapi",
+
+        // Web Frameworks & E2E
+        "astro-build.astro-vscode",
+        "svelte.svelte-vscode",
+        "biomejs.biome",
+        "ms-playwright.playwright"
       ],
       "settings": {
         "python.autoComplete.showAdvancedMembers": false,
