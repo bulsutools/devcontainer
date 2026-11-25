@@ -1,4 +1,4 @@
-# kuyacarlo/devcontainer
+# bulsutools/devcontainer
 
 Devcontainer counterpart of my workstation's configuration
 
@@ -7,16 +7,16 @@ Devcontainer counterpart of my workstation's configuration
 ### Recommended
 
 ```bash
-git submodule add https://github.com/kuyacarlo/devcontainer .devcontainer
+git submodule add https://github.com/bulsutools/devcontainer .devcontainer
 ```
 
 ### Minimal
 
 ```bash
 mkdir -p .devcontainer && cd .devcontainer # create .devcontainer
-curl -O https://raw.githubusercontent.com/kuyacarlo/devcontainer/main/devcontainer.json # copy the spec
-curl -O https://raw.githubusercontent.com/kuyacarlo/devcontainer/main/postCreateCommand # copy starter commands
-curl -O https://raw.githubusercontent.com/kuyacarlo/devcontainer/main/postStartCommand
+curl -O https://raw.githubusercontent.com/bulsutools/devcontainer/main/devcontainer.json # copy the spec
+curl -O https://raw.githubusercontent.com/bulsutools/devcontainer/main/postCreateCommand # copy starter commands
+curl -O https://raw.githubusercontent.com/bulsutools/devcontainer/main/postStartCommand
 ```
 
 Then from there, you create and use a codespace. It would automatically setup the tools, but changes/updates require rebuilds.
